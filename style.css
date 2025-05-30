@@ -1,0 +1,540 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial ;
+    border:border box;
+    overflow-x: hidden;
+
+}
+
+.navbar{
+    height: 60px;
+    background-color:white;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#hero {
+    background: url('./restaurant.avif') no-repeat center center/cover;
+    height: 60vh;
+    
+    
+}
+
+/*.border{
+    border: 1.5px solid transparent;
+    font-size: 0.7rem;
+}
+.border:hover {
+    border: 2px solid black;
+}*/
+
+.border{
+   text-decoration: none;
+}
+.border:hover {
+    text-decoration: underline;
+}
+.kitchen{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  background-color: rgb(253, 241, 226);
+  border-radius: 10px;
+  width: 1400px;
+  padding: 10px;
+}
+.morn:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.soup:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.burger:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.steak:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.fresh{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+    
+}
+
+.plate{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+    
+}
+
+.pre{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+   
+}
+.set{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+   
+}
+.star1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 800;
+    
+}
+.img1{
+    border-radius: 10px;
+}
+.img2{
+    border-radius: 10px;
+}
+.img3{
+    border-radius: 10px;
+}
+.img4{
+    border-radius: 10px;
+} 
+.del{
+    display: flex;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stea{
+    display: flex;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.idea{
+    display: flex;
+    color: white;
+    font-size: 4.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+/* From Uiverse.io by BiliBC034 */ 
+
+.rating:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+  
+  .rating:not(:checked) > label:before {
+    content: "★";
+  }
+  
+  .rating > input:checked + label:hover,
+  .rating > input:checked + label:hover ~ label,
+  .rating > input:checked ~ label:hover,
+  .rating > input:checked ~ label:hover ~ label,
+  .rating > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating > input:checked ~ label {
+    color: #ffa723;
+  }
+
+
+  
+  .effect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .morn{
+    background-color: rgb(247, 220, 186);
+    border-radius: 10px;
+  }
+  .burger{
+    background-color: rgb(247, 220, 186);
+    border-radius: 10px;
+  }
+  .soup{
+    background-color: rgb(247, 220, 186);
+    border-radius: 10px;
+  }
+  .steak{
+    background-color: rgb(247, 220, 186);
+    border-radius: 10px;
+  }
+
+  .card1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    background-color: rgb(253, 241, 226);
+    border-radius: 10px;
+    width: 1400px;
+    padding: 10px;
+  }
+.img5{
+    border-radius: 10px;
+}
+.img6{
+    border-radius: 10px;
+}
+.img7{
+    border-radius: 10px;
+}
+.img8{
+    border-radius: 10px;
+}
+.rice{
+    background-color: rgb(247, 220, 186);
+    border-radius: 10px;
+}
+.pizza{
+    background-color: rgb(247, 220, 186);
+    border-radius: 10px;
+}
+.noodle{
+    background-color: rgb(247, 220, 186);
+    border-radius: 10px;
+}
+.shake{
+    background-color: rgb(247, 220, 186);
+    border-radius: 10px;
+}
+  
+.rice:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.pizza:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.noodle:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.shake:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.kitchen:hover{
+    scale: 1.05;
+    transition: all 300ms;
+}
+.imge{
+    background: fixed;
+    height: 500px;
+    width: 1600px;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.event{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.img9:hover{
+   scale: 1.05;
+   transition: cubic-bezier(1, 0, 0, 1)
+}
+.img10:hover{
+    scale: 1.05;
+    transition: cubic-bezier(1, 0, 0, 1)
+ }
+ .img9{
+    border-radius: 20px;
+ }
+ .img10{
+    border-radius: 20px;
+ }
+ .pic{
+    background: url('./istockphoto-683480284-612x612.jpg') no-repeat center center/cover;
+    height: 60vh;
+    margin-top: 30px;
+    
+ }
+ .text{
+    color: white;
+    margin-top:200px ;
+    margin-left: 70px;
+ }
+.texts{
+   color: white;
+   display: flex;
+   justify-content: space-evenly;
+   /* align-items: center; */
+   margin-top: 50px;
+ }
+ .text1{
+    color: white;
+   
+ }
+ .text2{
+    color: white;
+   
+ }
+ .text3{
+    color: white;
+   
+ }
+ .eve{
+    margin-top: 30px;
+ }
+ .crisp{
+   font-size: 60px;
+ }
+ .play{
+    font-size: 30px;
+ }
+ .direct{
+    background-color: white;
+    color: black;
+ }
+ .icons{
+    margin-top: 30px;
+    font-size: 1.5rem;
+ }
+ /* From Uiverse.io by david-mohseni */ 
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 120px;
+    width: 100%;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }
+  
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 15px;
+  }
+
+  #hero {
+    height: 40vh;
+  }
+
+  .cards, .card1 {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .effect {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .event {
+    flex-direction: column;
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+
+  .imge, .pic {
+    height: 300px;
+    width: 100%;
+  }
+
+  .text {
+    margin: 100px 20px 0;
+    font-size: 1.2rem;
+  }
+
+  .idea {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .del, .stea {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .texts {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .news {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .icons {
+    font-size: 1.2rem;
+  }
+
+  .wrapper {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .crisp {
+    font-size: 2.5rem;
+  }
+
+  .play {
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10 {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+}
+
