@@ -453,85 +453,93 @@ button:hover{
     padding: 10px 15px;
   }
 
-  #hero, .pic {
+  #hero {
     height: 40vh;
-    background-size: cover;
-    background-position: center;
   }
 
   .cards, .card1 {
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    width: 95%;
-    padding: 10px;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: 20px 10px !important;
+    width: 95% !important;
+    padding: 10px !important;
+    gap: 15px !important;
+  }
+
+  .morn, .burger, .soup, .steak, .rice, .pizza, .noodle, .shake {
+    width: 100% !important;
+    margin-bottom: 15px !important;
   }
 
   .effect {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .imge {
-    height: 250px;
-    width: 100%;
-  }
-
-  .img1, .img2, .img3, .img4,
-  .img5, .img6, .img7, .img8,
-  .img9, .img10 {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
-  }
-
-  .text, .idea, .del, .stea {
-    text-align: center;
-    padding: 10px;
-  }
-
-  .idea {
-    font-size: 2rem;
-  }
-
-  .del, .stea {
-    font-size: 1.3rem;
-  }
-
-  .texts {
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
 
   .event {
-    flex-direction: column;
-    gap: 20px;
-    margin: 0;
+    flex-direction: column !important;
+    margin: 10px 15px !important;
+    padding: 10px 0 !important;
+  }
+
+  .imge, .pic {
+    height: 300px !important;
+    width: 100% !important;
+  }
+
+  .text {
+    margin: 100px 20px 0 !important;
+    font-size: 1.2rem !important;
+  }
+
+  .idea {
+    font-size: 2.5rem !important;
+    text-align: center !important;
+    padding: 10px !important;
+  }
+
+  .del, .stea {
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .texts {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 10px !important;
   }
 
   .news {
-    flex-direction: column;
-    padding: 0 10px;
+    flex-direction: column !important;
+    padding: 0 10px !important;
+  }
+
+  .icons {
+    font-size: 1.2rem !important;
   }
 
   .wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+    flex-wrap: wrap !important;
+    height: auto !important;
+    padding: 20px 0 !important;
   }
 
   .crisp {
-    font-size: 2rem;
+    font-size: 2.5rem !important;
   }
 
   .play {
-    font-size: 1.1rem;
+    font-size: 1.2rem !important;
   }
 
   button {
-    font-size: 0.9rem;
-    padding: 8px 16px;
+    font-size: 0.9rem !important;
+  }
+
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10 {
+    width: 90% !important;
+    margin-bottom: 15px !important;
   }
 }
